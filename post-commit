@@ -1,0 +1,6 @@
+#!/usr/bin/bash
+
+source "$(dirname $0)/github-track.sh"
+git_track_hook
+
+exit 0
